@@ -32,7 +32,7 @@ async function supabaseRest(path) {
 }
 
 const WHATSAPP_CONFIG = {
-  phoneNumber: "919876543210",
+  phoneNumber: "919363629141",
   getProductMessage: (product, quantity = 1) => {
     return `Hi, I want to order:\n\n${product.name}\nPrice: ₹${product.price}\nQuantity: ${quantity}\n\nTotal: ₹${product.price * quantity}`;
   },
