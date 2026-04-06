@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/admin",
+      "destination": "https://kalaiecombackend.onrender.com/admin",
+      "permanent": false
+    },
+    {
+      "source": "/admin/(.*)",
+      "destination": "https://kalaiecombackend.onrender.com/admin/$1",
+      "permanent": false
+    }
+  ]
+}
